@@ -4,10 +4,9 @@
 // @description  Wechselt zwischen neu und beliebt
 // @include		/^https?://pr0gramm.com/.*$/
 // ==/UserScript==
-
+'use strict';
 
 (function () {
-    'use strict';
 
     let parentNode = document.getElementById('head-menu');
     let button = document.createElement('a');
